@@ -1,0 +1,10 @@
+[    1140ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://automationpratice.com.br/register:0
+[   20557ms] [LOG] email:  @ https://automationpratice.com.br/static/js/47.05759863.chunk.js:0
+[   20558ms] [LOG] user:  @ https://automationpratice.com.br/static/js/47.05759863.chunk.js:0
+[   20558ms] [LOG] pass:  @ https://automationpratice.com.br/static/js/47.05759863.chunk.js:0
+[   51130ms] [LOG] email: cadastro-invalido @ https://automationpratice.com.br/static/js/47.05759863.chunk.js:0
+[   51130ms] [LOG] user: Cliente Teste @ https://automationpratice.com.br/static/js/47.05759863.chunk.js:0
+[   51131ms] [LOG] pass: Senha123 @ https://automationpratice.com.br/static/js/47.05759863.chunk.js:0
+[   76137ms] [LOG] email: cadastro.mcp.20261013@example.com @ https://automationpratice.com.br/static/js/47.05759863.chunk.js:0
+[   76138ms] [LOG] user: Cliente Teste @ https://automationpratice.com.br/static/js/47.05759863.chunk.js:0
+[   76138ms] [LOG] pass: Senha123 @ https://automationpratice.com.br/static/js/47.05759863.chunk.js:0
