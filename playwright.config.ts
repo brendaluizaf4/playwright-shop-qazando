@@ -1,4 +1,6 @@
 /// <reference types="node" />
+
+import process from 'node:process';
 import { defineConfig, devices } from '@playwright/test';
 
 /**
@@ -26,7 +28,8 @@ export default defineConfig({
   reporter: 'html',
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
-    baseURL: 'https://automationpratice.com.br',
+    /* Base URL to use in actions like `await page.goto('')`. */
+    baseURL: 'https://automationpratice.com.br ',
 
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     trace: 'on-first-retry',
@@ -51,7 +54,7 @@ export default defineConfig({
 
     /* Test against mobile viewports. */
     // {
-    //   name: 'Mobile Chrome',
+        ///name: 'Mobile Chrome',
     //   use: { ...devices['Pixel 5'] },
     // },
     // {
